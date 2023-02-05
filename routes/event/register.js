@@ -61,7 +61,7 @@ const registerParticipant = async (req, res) => {
         } else {
             participant 
             = new Participant({
-                userid: Math.floor(1000 + Math.random() * 9000),
+                
                 name,
                 college,
                 yearOfStudy,
@@ -148,7 +148,7 @@ const registerParticipant = async (req, res) => {
             sender: "mes23.ecellmit@gmail.com",
             templateName: "register",
             event_names: eventString,
-            userid:userid,
+          
             name: name
         }
         sgMailer(data);
