@@ -17,51 +17,54 @@ const Guidelines = () => {
                 </Link>
             </div>
             <div className="guide">
+                <div className="guide-event">Moneyball Guidelines</div>
+                <div className="guide-text">
+                    <ul>
+                        <li>Round 1: The know-it quiz- a question-and-answer round open to the people registered. </li>
+                        <li>Registered participants will be added to a WhatsApp group. </li>
+                        <li>The quiz link will be sent to the WhatsApp group 10 minutes before the quiz time.</li>
+                        <li>Duration: the quiz can be approximately 20-25 minutes. </li>
+                        <br></br>
+                        <li>Round 2: This round of Moneyball involves teams of 3 members each, in which the participants will be given a particular product or a service. The participating teams are expected to make a PPT to pitch their respective products or services. Each team will be given a maximum of 7 minutes in which the required judging criteria need to be fulfilled. The judges can cross-question after the pitch is over. The pitch needs to be completely formal and selling it in a potential market should be the aim. The judging criteria and point system for the pitches will be shared in a separate document. The best two pitches will be selected and they will proceed to the next round.</li>
+                        <br></br>
+                        <li> Round 3: The best 2-4 teams that qualify for the second round will proceed to the third round and in this round, each team will be provided with a name of a brand, which works under the same market category. The teams have to prove why their brand is superior compared to the other brands. These brands presented by each team will be judged based on subcategories/judging criteria. Questions can be asked after a pitching period of 7 minutes maximum. The list of the same will be provided to the judges during the event. The best team/ the team with the most points from the three judges will be declared the winner.</li>
+                    </ul>
+                </div>
+            </div>
+            <div className="guide">
                 <div className="guide-event">Money Quest</div>
                 <div className="guide-text">
                     <ul>
-                        <li>The game will be played in teams, where each team at the start will get a sheet with a list of clues, each clue pertaining to a specific place on campus, once they solve the clue, they go to that specific place and get a safe note. </li>
-                        <li>The game will be played in rounds where Innovation Center building will act as the starting point, after each round of 30 mins, every team will have to come to IC</li>
-                        <li>At the Innovation Centre the teams will experience an auction of the buildings whose safe notes they possess, for example if 3 teams have the safe note of Student Plaza, these 3 teams will face each other in an auction and the highest bidder will get Student Plaza and any other team passing SP will have to pay rent from next round onwards </li>
-                        <li>Each team will receive a game cash after every round when they come back to IC</li>
-                        <li>Each team will have a volunteer with them. The volunteer will be keeping track of all the rent as well as cash and any unfair means the player might use </li>
-                        <li>Incase of unfair means used the team will face a ban of 10 minutes or a penalty of Game cash </li>
-                        <li>A few places act as an income tax for the players, players will.have to solve the clues given for those places and avoid them</li>
-                        <li>Winner will be the team having the most cash+assets</li>
+                        <li>Each team is given a sheet of clues that represent to various places inside the MIT, a virtual wallet along with which they are given a map of MIT mentioning the restricted places to refer to before the start of the event. The clue list will be rolled out in phases after every round with duration of rounds increasing every successive round.</li>
+                        <br></br>
+                        <li>With the start of the game, each team runs to find the places and with every place that they find, they get an acknowledgment from one of the hidden team members placed there.</li>
+                        <br></br>
+                        <li>After every round, each team needs to arrive back to the starting point where a bidding round will be held to sale the places.</li>
+                        <br></br>
+                        <li> Any team that crosses the sold place after it has been sold will get a rent deduction from there wallet.</li>
+                        <br></br>
+                        <li>  In the end, the team with the highest asset will win.</li>
+                       
                     </ul>
                 </div>
             </div>
             <div className="guide">
-                <div className="guide-event">Case Maze</div>
+                <div className="guide-event">Fallout</div>
                 <div className="guide-text">
                     <ul>
-                        <li>This will be a case study competition that will help students develop critical thinking in terms of businesses and startups. A detailed case study about 2 startups/ companies will be released. Participants will need to analyze them and answer questions based on them. This will take place in 4 challenging rounds.</li>
-                        <li>Manipal Academy of Higher Education (MAHE) Students
-Students from any year of study can apply.</li>
-                        <li>Team size: 1-4</li>
-                        <li>This round will consist of two mini case studies based on general entrepreneurship/business-related situations.</li>
-                        <li>It will consist of 14 MCQ-type questions.</li>
-                        <li>The quiz will be of 25 minutes and can be filled anytime on 23<sup>rd</sup>&nbsp;Febuary,2023.</li>
-                        <li>The top 10 teams will be shortlisted from round 1 scores and will be going forward with round 2.</li>
-                        <li>In this round, a comprehensive case will be provided with the problem statement on 25th March 2022 at 12:00 AM.
-Teams will have to submit their solutions before 29th March 2022 at 12:00 AM.</li>
-                        <li>The top 5 teams will be shortlisted from round 2 and will have to present their solutions to an esteemed set of panelists.</li>
+                        <li>Participants have to wear formal shirts and pants without the blazer</li>
+                        <br></br>
+                        <li>Participants have to abide by the rule to avoid deduction in points or termination from the competition </li>
+                        <br></br>
+                        <li>Use proper and professional english but avoid referring in third person</li>
+                        <br></br>
+                        <li>Raise your hand to add any formal or informal inputs.</li>
+                        <br></br>
+                        <li>The acknowledgement of your input will depend upon the jurisdiction of judges</li>
+                        <br></br>
+                        <li>Avoid speaking when another participant is speaking</li>
                     </ul>
                 </div>
-            </div>
-            <div className="guide">
-                {/* <div className="guide-event">Agree to Disagree</div>
-                <div className="guide-text">
-                    <ul>
-                        <li>Registered delegates should be present at the venue fifteen minutes prior to the event</li>
-                        <li>All delegates will be allotted designations prior to the event based on their preferences </li>
-                        <li>Avoid profanity and maintain decorum at all times. </li>
-                        <li>If faced with any issues or have any queries, all participants are requested to directly message the EB (contact details will be provided) instead of disrupting/interrupting the event/speaker.</li>
-                        <li>Committee-specific rules(if any) will be conveyed at the beginning of the event.</li>
-                        <li>Session 1 (11 am-1pm): Discuss and come to an agreement on their stance w.r.t the agenda at hand.</li>
-                        <li>Session 2 (2 pm-5 pm): The discussion committees engage in a Showdown where they battle to prove that their stance should have the upper hand.</li>
-                    </ul>
-                </div> */}
             </div>
         </div>
     );

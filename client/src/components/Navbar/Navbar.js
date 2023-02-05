@@ -35,9 +35,9 @@ const Navbar = () => {
                 <li class="nav-item" onClick={closeNav}>
                     <a href="/events" class="nav-link">Events</a>
                 </li>
-                {/* <li class="nav-item" onClick={closeNav}>
+                <li class="nav-item" onClick={closeNav}>
                     <a href="/guidelines" class="nav-link">Guidelines</a>
-                </li> */}
+                </li>
                 {/* <li class="nav-item" onClick={closeNav}>
                     <a href="/team" class="nav-link">Team</a>
                 </li> */}

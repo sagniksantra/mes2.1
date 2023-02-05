@@ -33,11 +33,11 @@ function App() {
             path="/register"
             element={ <Register /> }
           />
-          {/* <Route
+          <Route
             exact
             path="/guidelines"
             element={ <Guidelines /> }
-          /> */}
+          />
           {/* <Route
             exact
             path="/team"
