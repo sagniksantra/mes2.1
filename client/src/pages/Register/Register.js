@@ -805,7 +805,7 @@ const Register = () => {
                     {caseMaze ? CaseMaze() : ""}
                     {startup ? StartupFair() : ""}
                     {panel ? Panel()  : ""}
-                    {fallout? FALL}
+                    
                     <button onClick={handleSubmit}>Register</button>
                 </form>
             </div>
