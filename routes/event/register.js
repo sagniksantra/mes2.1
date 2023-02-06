@@ -134,6 +134,7 @@ const registerParticipant = async (req, res) => {
         if(bizQuiz) {
             participant.bizQuiz.isRegistered = true;
         }
+        
         // send registration confirmation email
         let eventString = "";
         regEvents.forEach((element, index) => {

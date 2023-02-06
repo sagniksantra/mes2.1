@@ -34,6 +34,7 @@ const Register = () => {
     const [keyNote, setKeyNote] = useState(false);
     const [talk, setTalk] = useState(false);
     const [caseMaze, setCaseMaze] = useState(false);
+    const [fallout,setFallout]=useState(false)
     const [workshopOne, setWorkOne] = useState(false);
     const [workshopTwo, setWorkTwo] = useState(false);
     const [biz, setBiz] = useState(false);
@@ -579,6 +580,8 @@ const Register = () => {
             if(workshopTwo)
                 user.workshopTwo = workshopTwo;
             console.log(user)
+            if(fallout)
+                user.fallout=fallout;
             try {
                 const res 
                     = await axios.post(
@@ -789,7 +792,7 @@ const Register = () => {
                          <CheckboxCard 
                             eventName="Fall Out" 
                             eventMode="Offline" 
-                            changeFunc={setPanel}
+                            changeFunc={workshopOne}
                             logo={fallLogo} 
                             handleArray={handleRegEventsArray}
                         />
@@ -802,6 +805,7 @@ const Register = () => {
                     {caseMaze ? CaseMaze() : ""}
                     {startup ? StartupFair() : ""}
                     {panel ? Panel()  : ""}
+                    {fallout? FALL}
                     <button onClick={handleSubmit}>Register</button>
                 </form>
             </div>

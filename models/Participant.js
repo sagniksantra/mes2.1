@@ -79,6 +79,7 @@ const ParticipantSchema = new mongoose.Schema({
             default: false
         }
     },
+    
     workshop: {
         isRegistered: {
             type: Boolean,
