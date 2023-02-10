@@ -62,7 +62,7 @@ const CaseMaze = () => {
         />
       </div>  */}
     </div>
-    <Speakers/>
+    
     </>
   );
 };

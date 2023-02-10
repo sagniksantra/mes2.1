@@ -21,6 +21,7 @@ import MoneyQuest from './pages/Events/MoneyQuest/MoneyQuest';
 import Moneyball from './pages/Events/Moneyball/Moneyball';
 import Workshop from './pages/Events/Workshop/Workshop';
 import Informals from './pages/Events/Informals/Informals';
+import YouthPanelDiscussion from './pages/Events/YouthPanelDiscussion/YouthPanelDiscussion';
 
 function App() {
   axios.defaults.baseURL = process.env.REACT_APP_BASE_URL;
@@ -90,8 +91,8 @@ function App() {
           />
           <Route
             exact
-            path="/informals"
-            element={ <Informals /> }
+            path="/ypd"
+            element={ <YouthPanelDiscussion /> }
           />
           {/* <Route
             exact

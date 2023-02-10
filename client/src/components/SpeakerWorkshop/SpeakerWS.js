@@ -3,98 +3,116 @@ import "./SpeakerWS.css";
 
 const SpeakerWS = () => {
   return (
+    <>
     <div className="speaker">
       <div className="speaker-details">
       <div className="speaker-img">
         <img
-          src="https://i.ibb.co/71gWyv2/image.png"
+              src="https://i.ibb.co/hYQcVfv/image.png"
           alt="Speaker 1"
           className="circle-img"
         />
       </div>
-      <p>Lorem Ipsum</p>
+      <p>Vikas Gupta</p>
       </div>
       <div className="speaker-details">
       <div className="speaker-img">
         <img
-          src="https://png.pngtree.com/png-vector/20210604/ourmid/pngtree-gray-avatar-placeholder-png-image_3416697.jpg"
+              src="https://i.ibb.co/R2dtSX8/image.png"
           alt="Speaker 1"
           className="circle-img"
         />
       </div>
-      <p>Lorem Ipsum</p>
+      <p>Sudhinder Parvatikar</p>
       </div>
       <div className="speaker-details">
       <div className="speaker-img">
         <img
-          src="https://png.pngtree.com/png-vector/20210604/ourmid/pngtree-gray-avatar-placeholder-png-image_3416697.jpg"
+              src="https://i.ibb.co/3f0TGDF/image.png"
           alt="Speaker 1"
           className="circle-img"
         />
       </div>
-      <p>Lorem Ipsum</p>
+      <p>Arvind Sasikumar</p>
       </div>
       <div className="speaker-details">
       <div className="speaker-img">
         <img
-          src="https://png.pngtree.com/png-vector/20210604/ourmid/pngtree-gray-avatar-placeholder-png-image_3416697.jpg"
+              src="https://i.ibb.co/2sgNBZD/image.png"
           alt="Speaker 1"
           className="circle-img"
         />
       </div>
-      <p>Lorem Ipsum</p>
+      <p>Lokesh Venkataswamy</p>
       </div>
       <div className="speaker-details">
       <div className="speaker-img">
         <img
-          src="https://png.pngtree.com/png-vector/20210604/ourmid/pngtree-gray-avatar-placeholder-png-image_3416697.jpg"
+              src="https://i.ibb.co/x1HHrCW/image.png"
           alt="Speaker 1"
           className="circle-img"
         />
       </div>
-      <p>Lorem Ipsum</p>
+
+
+      <p>Dr. Tojin T. Eapen</p>
       </div>
       <div className="speaker-details">
       <div className="speaker-img">
         <img
-          src="https://png.pngtree.com/png-vector/20210604/ourmid/pngtree-gray-avatar-placeholder-png-image_3416697.jpg"
+              src="https://i.ibb.co/ncjpYct/image.png"
           alt="Speaker 1"
           className="circle-img"
         />
       </div>
-      <p>Lorem Ipsum</p>
-      </div>
-      <div className="speaker-details">
-      <div className="speaker-img">
-        <img
-          src="https://png.pngtree.com/png-vector/20210604/ourmid/pngtree-gray-avatar-placeholder-png-image_3416697.jpg"
-          alt="Speaker 1"
-          className="circle-img"
-        />
-      </div>
-      <p>Lorem Ipsum</p>
-      </div>
-      <div className="speaker-details">
-      <div className="speaker-img">
-        <img
-          src="https://png.pngtree.com/png-vector/20210604/ourmid/pngtree-gray-avatar-placeholder-png-image_3416697.jpg"
-          alt="Speaker 1"
-          className="circle-img"
-        />
-      </div>
-      <p>Lorem Ipsum</p>
-      </div>
-      <div className="speaker-details">
-      <div className="speaker-img">
-        <img
-          src="https://png.pngtree.com/png-vector/20210604/ourmid/pngtree-gray-avatar-placeholder-png-image_3416697.jpg"
-          alt="Speaker 1"
-          className="circle-img"
-        />
-      </div>
-      <p>Lorem Ipsum</p>
+      <p>Jyoti Bharadwaj</p>
       </div>
     </div>
+    
+      <div className="speaker">
+        
+        <div className="speaker-details">
+          <div className="speaker-img">
+            <img
+              src="https://i.ibb.co/wdDWxQJ/image.png"
+              alt="Speaker 1"
+              className="circle-img"
+            />
+          </div>
+          <p>Akshay Johri</p>
+        </div>
+        <div className="speaker-details">
+          <div className="speaker-img">
+            <img
+              src="https://i.ibb.co/71gWyv2/image.png"
+              alt="Speaker 1"
+              className="circle-img"
+            />
+          </div>
+          <p>Riya Jain</p>
+        </div>
+        <div className="speaker-details">
+          <div className="speaker-img">
+            <img
+              src="https://i.ibb.co/VDqqq02/image.png"
+              alt="Speaker 1"
+              className="circle-img"
+            />
+          </div>
+          <p>Shobhit Saxena</p>
+        </div>
+        <div className="speaker-details">
+          <div className="speaker-img">
+            <img
+              src="https://i.ibb.co/dP95J8P/image.png"
+              alt="Speaker 1"
+              className="circle-img"
+            />
+          </div>
+          <p>Vinod Aravindakshan</p>
+        </div>
+      </div>
+    </>
   );
 };
 

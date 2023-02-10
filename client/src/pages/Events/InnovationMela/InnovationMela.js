@@ -61,7 +61,7 @@ const InnovationMela = () => {
         />
       </div>  */}
     </div>
-    <Speakers/>
+    
     </>
   );
 };

@@ -27,7 +27,7 @@ Fallout puts participants into dangerous situations which will have them running
 
                     </p>
                     <h2>Guidelines</h2>
-                    <ul>
+                    <ul className="guidelines">
                         <li>Participants have to wear formal shirts and pants without the blazer</li>
                         <br></br>
                         <li>Participants have to abide by the rule to avoid deduction in points or termination from the competition </li>
@@ -83,6 +83,8 @@ Fallout puts participants into dangerous situations which will have them running
       </div>  */}
     </div>
     {/* <Speakers/> */}
+
+    
     </>
   );
 };

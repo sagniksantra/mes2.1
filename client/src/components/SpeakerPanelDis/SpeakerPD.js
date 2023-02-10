@@ -1,51 +1,80 @@
 import React from "react";
 import "./SpeakerPD.css";
 
-const Speakers = () => {
+const SpeakersPD = () => {
   return (
     <div className="speaker">
+
       <div className="speaker-details">
       <div className="speaker-img">
         <img
-          src="https://png.pngtree.com/png-vector/20210604/ourmid/pngtree-gray-avatar-placeholder-png-image_3416697.jpg"
+            src="https://i.ibb.co/pWfXv9r/image.png"
           alt="Speaker 1"
           className="circle-img"
         />
       </div>
-      <p>Lorem Ipsum</p>
+      <p>Manish D'Souza</p>
       </div>
+
       <div className="speaker-details">
       <div className="speaker-img">
         <img
-          src="https://png.pngtree.com/png-vector/20210604/ourmid/pngtree-gray-avatar-placeholder-png-image_3416697.jpg"
+            src="https://i.ibb.co/y5pR84H/image.png"
           alt="Speaker 1"
           className="circle-img"
         />
       </div>
-      <p>Lorem Ipsum</p>
+      <p>Anuj Batra</p>
       </div>
+
       <div className="speaker-details">
       <div className="speaker-img">
         <img
-          src="https://png.pngtree.com/png-vector/20210604/ourmid/pngtree-gray-avatar-placeholder-png-image_3416697.jpg"
+            src="https://i.ibb.co/LJZs7cJ/image.png"
           alt="Speaker 1"
           className="circle-img"
         />
       </div>
-      <p>Lorem Ipsum</p>
+      <p>Leenesh Singh</p>
       </div>
+
       <div className="speaker-details">
       <div className="speaker-img">
         <img
-          src="https://png.pngtree.com/png-vector/20210604/ourmid/pngtree-gray-avatar-placeholder-png-image_3416697.jpg"
+            src="https://i.ibb.co/Vw3p7bK/image.png"
           alt="Speaker 1"
           className="circle-img"
         />
       </div>
-      <p>Lorem Ipsum</p>
+      <p>Rohan Choukkar</p>
       </div>
-    </div>
+
+      <div className="speaker-details">
+        <div className="speaker-img">
+          <img
+            src="https://i.ibb.co/MBVcMQ9/image.png"
+            alt="Speaker 1"
+            className="circle-img"
+          />
+        </div>
+        <p>Deepak Pareek</p>
+      </div>
+
+      <div className="speaker-details">
+        <div className="speaker-img">
+          <img
+            src="https://i.ibb.co/CpcF2vj/image.png"
+            alt="Speaker 1"
+            className="circle-img"
+          />
+        </div>
+        <p>Smitha Rao</p>
+      </div>
+
+      </div>
+      
+    
   );
 };
 
-export default Speakers;
+export default SpeakersPD;

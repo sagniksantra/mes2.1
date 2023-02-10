@@ -17,7 +17,8 @@ const PitchTank = () => {
                 <Navbar />
                 <div className="description">
                     <div className="mes-logo">
-                        <img src='https://i.ibb.co/8Kg4Rrc/2.png' alt="MES Logo"/>
+                
+                  <img src='https://i.ibb.co/rtChQnm/pitch-tank.png' alt="MES Logo"/>
                     </div>
                     <h1>Pitch Tank</h1>
                     <p>
@@ -26,6 +27,9 @@ const PitchTank = () => {
                     <Link to="/register">
                         <button>Register Now</button>
                     </Link>
+              <br></br>
+              <br></br>
+              <br></br>
                 </div>
             </div>
             
@@ -61,7 +65,7 @@ const PitchTank = () => {
         />
       </div>  */}
     </div>
-    <Speakers/>
+    {/* <Speakers/> */}
     </>
   );
 };
